@@ -5,22 +5,26 @@
 
 #g-dragon{
   background-color: #d87f4f;
+  border: 2px solid #02111b;
   color: #6a7a94;
 }
 
 #lisa{
-  background-color: ;
-  color: ;
+  background-color: #ffd762;
+  border: 2px solid #02111b;
+  color:#ff8247 ;
 }
 
 #nancy{
-  background-color: ;
-  color: ;
+  background-color:#ffd148 ;
+  border: 2px solid #02111b;
+  color:#8b3626 ;
 }
 
 #sontung{
-  background-color: ;
-  color: ;
+  background-color:#b8f2b2 ;
+  border: 2px solid #02111b;
+  color:#02111b;
 }
 
 audio , video{width: 100%}
