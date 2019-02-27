@@ -5,8 +5,9 @@
 
 #g-dragon{
   background-color: #d87f4f;
-  border: 2px solid #02111b;
+  border: 3px solid #02111b;
   color: #6a7a94;
+  border-radius: 30px;
 }
 
 #lisa{
@@ -27,4 +28,29 @@
   color:#02111b;
 }
 
+#g-dragon figure{
+  background-color: #ffa153;
+  border: 3px solid #02111b;
+  color: #6a7a94;
+  border-radius: 30px;
+}
+
+#lisa figure{
+  background-color: #9a4340;
+  border: 2px solid #02111b;
+  color:#ff8247 ;
+}
+
+#nancy figure{
+  background-color:#7a7875 ;
+  border: 2px solid #02111b;
+  color:#8b3626 ;
+  border-radius: 30px;
+}
+
+#sontung figure{
+  background-color:#948572 ;
+  border: 2px solid #02111b;
+  color:#02111b;
+}
 audio , video{width: 100%}

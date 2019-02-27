@@ -1,5 +1,4 @@
 table {
-  /* font-family: arial ; */
   border-collapse: collapse;
   width: 100%;
 }
@@ -12,4 +11,19 @@ td, th {
 
 tr:nth-child(even) {
   background-color: #b2fcff;
+}
+
+td:first-child{
+  text-align: center;
+}
+
+td:nth-child(2){
+  font-style: italic;
+  color: #deb887;
+}
+
+.highlighted{
+  background-color: #f00;
+  color: #fff;
+  font-weight: bold;
 }
