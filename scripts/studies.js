@@ -18,6 +18,24 @@ window.onload = function(){
     });
   }
 
+window.onload = function(){
+  var trs = document.getElementsByTagName('tr');
+  var highlighteds = document.getElementsByClassName('highlighted');
+  var myTd = document.getElementById("my-td");
+
+  for ( var i = 0 ; i < trs.length  ; i++){
+    tds[i].addEventListener('mouseover', function(event){
+      event.preventDefault();
+
+      var highlighteds = document.getElementsByClassName('highlighted');
+
+      for ( var i = highlighteds.length - 1 ; i >= 0 ; i--){
+        highlighteds[i].classList.remove('highlighted');
+      }
+
+      this.classList.add('highlighted');
+    });
+  }
 
 //  function myFunction() {
 //     console.log('TD');

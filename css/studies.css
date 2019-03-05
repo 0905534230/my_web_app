@@ -9,7 +9,7 @@ td, th {
   padding: 8px;
 }
 
-tr:nth-child(even) {
+th{
   background-color: #b2fcff;
 }
 
@@ -23,7 +23,16 @@ td:nth-child(2){
 }
 
 .highlighted{
-  background-color: #f00;
+  background-color: #00f;
   color: #fff;
   font-weight: bold;
+}
+#my-td {
+    background-color: #b2fc22;
+    color: : #fff;
+    border: 2px solid #000;
+    margin: 30px 0 30px 0;
+    height: 50px;
+    padding: 25px;
+    font-size: 25px;
 }

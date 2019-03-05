@@ -4,12 +4,28 @@
 
 $(function(){
   alert("Hello!");
-  var tds = $('td');
+  var trs = $('tr');
   var highlighteds = $('.highlighted');
   var myTd = $('#my-td');
-  $('td').on('click' , function (event){
+  $('tr').on('mouseover' , function (event){
     event.preventDefault();
     $('.highlighted').removeClass('highlighted');
     $(this).addClass('highlighted');
   });
+//------------------//
+$('td').on('mouseover', function(event) {
+   event.preventDefault();
+   $('#my-td').html('<span>' +
+        $(this).text() +
+        '</span>'
+  );
+});
+
+$('td').on('mouseout', function(event) {
+   event.preventDefault();
+   $('#my-td').html(null);
+});
+//------------------//
+
+
 });
