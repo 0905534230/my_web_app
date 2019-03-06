@@ -55,5 +55,4 @@ function resizeElements(elements){
     });
     $(element).css('width' , width);
   });
-
 }
